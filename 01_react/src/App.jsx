@@ -1,3 +1,4 @@
+import Chn from "./me"
 
 
 
@@ -5,7 +6,10 @@ function App() {
  
 
   return (
-   <h1>Saurav's first app with vite</h1>
+    <>
+   <Chn/>
+   <h1></h1>
+   </>
   )
 }
 
