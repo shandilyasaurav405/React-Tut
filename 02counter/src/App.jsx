@@ -10,7 +10,7 @@ function App() {
   
   // let counter = 15
 
-  const addValue = () =>{
+  const Increment = () =>{
     if(counter+ +1 >20){
       alert("Limit exceed")
     }
@@ -18,7 +18,7 @@ function App() {
     setCounter(counter+1);
     }
   }
-  const removeValue = () =>{
+  const Decrement = () =>{
     if(counter -1 <0){
       alert("value cannot be negative");
     }
@@ -37,10 +37,10 @@ function App() {
       <h1>React</h1>
       <h3>Counter value: {counter}</h3>
       <button
-      onClick={addValue}>Add value</button>
+      onClick={Increment}>Add value</button>
       <br />
       <button
-      onClick={removeValue}>Reduce value</button>
+      onClick={Decrement}>Reduce value</button>
     </>
   )
 }
