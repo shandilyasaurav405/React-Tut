@@ -11,13 +11,25 @@ function App() {
   // let counter = 15
 
   const addValue = () =>{
-    
+    if(counter+ +1 >20){
+      alert("Limit exceed")
+    }
+    else{
     setCounter(counter+1);
+    }
   }
   const removeValue = () =>{
-    
+    if(counter -1 <0){
+      alert("value cannot be negative");
+    }
+    else{
     setCounter(counter-1);
+    }
   }
+
+  
+
+  
 
 
   return (
